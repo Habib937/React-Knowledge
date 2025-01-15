@@ -1,11 +1,15 @@
 import './App.css'
+import Bolgs from './components/Blogs/Bolgs'
+import Header from './components/header/Header'
+
 
 function App() {
 
   return (
     <>
+    <Header></Header>
+    <Bolgs></Bolgs>
     
-      <h1 className='text-6xl bg-neutral-500'>React Knowledge</h1>
     </>
   )
 }
